@@ -9,4 +9,7 @@ Ordem de desenvolvimento do exercício definida pelo professor
 Desenvolver a parte de css apenas da index sem desenvolver o menu
 
 Terceira parte:
-Deesenvolver o menu em css de todas as páginas
+Desenvolver o menu em css de todas as páginas
+
+Quarta parte:
+Modificar no css a tabela na página de cursos
