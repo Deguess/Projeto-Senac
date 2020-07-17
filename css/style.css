@@ -101,9 +101,27 @@ footer{
     margin-right: 10px;
 }
 
-@media only screen and (max-widht: 600px){
-    header, #fachada, #container, footer{
+@media only screen and (max-width: 800px){
+    #cabecalho, #logo, #navegacao, #fachada{
         width: 100%;
         height: auto;
+        display: grid;
+    }
+
+    #container{
+        display: grid;
+    }
+
+    #estrutura, #estruturar{
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+
+    #historia{
+        text-align: left;
+    }
+
+    .sala{
+        text-align: center;
     }
 }
