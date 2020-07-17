@@ -1,0 +1,109 @@
+
+header{
+    width: 100%;
+    height: 45px;
+}
+
+#logo{
+    float: left;
+    width: 50px;
+    height: auto;
+}
+
+#imglogo{
+    width: 75px;
+    height: 45px;
+    float: left;
+    margin-left: 10px ;
+}
+
+#navegacao{
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+#fachada{
+    border-radius: 2px;
+    width: 1200px;
+    height: 300px;
+    margin: 20px auto;
+    display: block;
+}
+
+#container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: stretch;
+}
+
+#estrutura{
+    width: 45%;
+    height: auto;
+    float: left;
+    background-color: rgba(100, 100, 100, 0.05);
+    padding: 16px;
+    margin: auto auto auto 20px;
+}
+
+#estruturar{
+    width: 45%;
+    height: auto;
+    float: right;
+    background-color: rgba(100, 100, 100, 0.05);
+    padding: 16px;
+    margin-right: 20px;
+}
+
+#conheca{
+    font-family: arvo;
+    color: black;
+    margin-left: 8px;
+}
+
+#historia{
+    font-family: arvo;
+    color: black;
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+}
+
+#titulo{
+    font-family: arvo;
+    color: black;
+    text-align: center;
+}
+
+.sala{
+    width: 250px;
+    height: 160px;
+    display: inline-table;
+    margin: 10px 10px auto;
+}
+
+hr{
+    border: 1px solid rgb(70, 131, 243);
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    right: 5px;
+    bottom: 1px;
+}
+
+.imgredes{
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-widht: 600px){
+    header, #fachada, #container, footer{
+        width: 100%;
+        height: auto;
+    }
+}
