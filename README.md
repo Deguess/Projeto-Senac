@@ -18,3 +18,7 @@ Desenvolver o menu em css de todas as páginas
 **Quarta parte:**
 
 Modificar no css a tabela na página de cursos
+
+**Quinta parte**
+
+Aplicar div, nav, header, footer e section na index
