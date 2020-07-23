@@ -1,93 +1,89 @@
 <DOCTYPE html>
     <html lang="pt-br">
         <head>
-            <title>Localização</title>
+            <title>Cadastro</title>
             <meta charset="UTF-8">
             <link rel="stylesheet" type="text/css" href="../css/menu.css">
+            <link rel="stylesheet" href="../css/cadstyle.css">
         </head>
     <body>
         <!-- Cabeçalho -->
-        <img src="../imagens/logo.jpeg" alt="Logo"
-        width="150" height="65" align="left" 
-        title="Senac" hspace="10" vspace="5"
-        border="0">
-        <br>
-        <h3 align="center" >Rio Grande do Sul</h3>
-        <br>
+        <header id="cabecalho">
+            <div id="logo">
+                    <a href="index.html">
+                    <img id="imglogo" src="../imagens/logo.png" alt="Logo">
+                    </a>
+            </div>
 	<!-- Menu -->
-	<nav>
-		<ul id="menu">
-	<li id="inicio"><a href="index.html">Início</a></li>
-			<li>
-				<a href="paginas/cursos.html">Cursos</a>
-				<ul>
-					<li><a href="paginas/tecinfo.html">Informática</a></li>
-					<li><a href="paginas/tecjogos.html">Jogos</a></li>
-					<li><a href="paginas/tecredes.html">Redes</a></li>
-					<li><a href="paginas/tecadmin.html">Administração</a></li>
-					<li><a href="paginas/tecdev.html">Desenvolvimento de Sistemas</a></li>
-				</ul>
-			</li>
-	<li><a href="paginas/localizacao.html">Localização</a></li>
-	<li><a href="paginas/cadastro.html">Cadastro</a></li>
-        </ul>
-	</nav>
+    <div id="navegacao">
+        <nav>
+            <ul id="menu">
+                <li class="outro"><a href="../index.html">Início</a></li>
+                <li class="outro"><a href="../paginas/cursos.html">Cursos</a></li>
+                <li class="outro"><a href="../paginas/localizacao.html">Localização</a></li>
+                <li id="cadastro"><a href="../paginas/cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </div>    
+    </header>
+    <hr>
+    <br>
     <!-- Cadastro -->
-        <section id='meio'>
-             <h2 align='center'>Cadastrar</h2>
+        <div id='meio'>
              <form action='cadastro.php' method='post'>
-                <table align='center'>
+                <table>
                     <thead>
                         <tr>
-                            <td colspan='2' align='center'>
+                            <td colspan='2'>
+                            <h2>Cadastrar</h2>    
                             <h3>Preencher todos os campos para completar o cadastro*</h3>
                             </td>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td align='right'><h3><label>Nome:</label></h3></td>
-                            <td align='left'><input type='text' name='nome'
+                            <td class="tipo"><h3><label>Nome:</label></h3></td>
+                            <td class="box"><input type='text' name='nome'
                             required size='30'></td>
                         </tr>
                         <tr>
-                            <td align='right'><h3><label>Sobrenome:</label></h3></td>
-                            <td align='left'><input type='text' name='sobrenome'
+                            <td class="tipo"><h3><label>Sobrenome:</label></h3></td>
+                            <td class="box"><input type='text' name='sobrenome'
                             required size='30'></td>
                         </tr>
                         <tr>
-                            <td align='right'><h3><label>Data de Nascimento:</label></h3></td>
-                            <td align='left'><input type='date' name='datansc' 
+                            <td class="tipo"><h3><label>Data de Nascimento:</label></h3></td>
+                            <td class="box"><input type='date' name='datansc' 
                             required></td>
                         </tr>
                         <tr>
-                            <td align='right'><h3><label>CPF:</label></h3></td>
-                            <td align='left'><input type='text' name='CPF'
+                            <td class="tipo"><h3><label>CPF:</label></h3></td>
+                            <td class="box"><input type='text' name='CPF'
                             required size='30'></td>
                         </tr>
                         <tr>
-                            <td align='right'><h3><label>RG:</label></h3></td>
-                            <td align='left'><input type='text' name='RG'
+                            <td class="tipo"><h3><label>RG:</label></h3></td>
+                            <td class="box"><input type='text' name='RG'
                             required size='30'></td>
                         </tr>
                         <tr>
-                            <td align='right'><h3><label>Endereço:</label></h3></td>
-                            <td align='left'><input type='text' name='endereco'
+                            <td class="tipo"><h3><label>Endereço:</label></h3></td>
+                            <td class="box"><input type='text' name='endereco'
                             required size='30'></td>
                         </tr>
                         <tr>
-                            <td align='right'><h3><label>Número:</label></h3></td>
-                            <td align='left'><input type='text' name='numero'
+                            <td class="tipo"><h3><label>Número:</label></h3></td>
+                            <td class="box"><input type='text' name='numero'
                             required size='30'></td>
                         </tr>
                         <tr>
-                            <td align='right'><h3><label>Bairro:</label></h3></td>
-                            <td align='left'><input type='text' name='bairro'
+                            <td class="tipo"><h3><label>Bairro:</label></h3></td>
+                            <td class="box"><input type='text' name='bairro'
                             required size='30'></td>
                         </tr>
                         <tr>
-                            <td align='right'><h3><label>Estado:</label></h3></td>
-                            <td align='left'>
+                            <td class="tipo"><h3><label>Estado:</label></h3></td>
+                            <td class="box">
                                 <select name='estado' required>
                                     <option value="">Selecione o Estado (UF)</option>
                                     <option value="Acre">Acre</option>
@@ -120,34 +116,34 @@
                                 </select>
                         </tr>
                         <tr>
-                            <td align='right'><h3><label>Cidade:</label></h3></td>
-                            <td align='left'><input type='text' name='cidade'
+                            <td class="tipo"><h3><label>Cidade:</label></h3></td>
+                            <td class="box"><input type='text' name='cidade'
                             required size='30'></td>
                         </tr>					
                         <tr>
-                            <td align='right'><h3><label>Email:</label></h3></td>
-                            <td align='left'><input type='email' name='email'
+                            <td class="tipo"><h3><label>Email:</label></h3></td>
+                            <td class="box"><input type='email' name='email'
                             required size='30' placeholder='nome@dominio.com'></td>		
                         </tr>
                         <tr>
-                            <td align='right'><h3><label>Usuario:</label></h3></td>
-                            <td align='left'><input type='text' name='usuario'
+                            <td class="tipo"><h3><label>Usuario:</label></h3></td>
+                            <td class="box"><input type='text' name='usuario'
                             required size='30'</td>
                         </tr>
                         <tr>
-                            <td align='right'><h3><label>Senha:</label></h3></td>
-                            <td align='left'><input type='password' name='senha'
+                            <td class="tipo"><h3><label>Senha:</label></h3></td>
+                            <td class="box"><input type='password' name='senha'
                             required size='30'></td>
                         </tr>
                         <tr>
-                            <td align='right'><h3><label>Observação:</label></h3></td>
-                            <td align='left'><input type='text' name='observação'
+                            <td class="tipo"><h3><label>Observação:</label></h3></td>
+                            <td class="box"><input type='text' name='observação'
                             required size='30'></td>
                         </tr>					
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td colspan='2' align='center'>
+                            <td colspan='2'>
                             <br>
                                 <input type='submit' value='Cadastrar'>
                             </td>
@@ -156,23 +152,24 @@
                 </table>
              </form>
              <br>
-            </section>
+            </div>
         <!-- Rodapé -->
-        <hr>
-        <a href="https://www.facebook.com/senacrsoficial" target="blank">
-        <img src="../imagens/facebook.png" alt="Facebook" title="Facebook"
-         width="32" height="32" hspace="8" align="right">
-        </a>
-        <a href="https://www.instagram.com/senac_rs/" target="blank">
-        <img src="../imagens/instagram.png" alt="Instagram" title="Instagram"
-         width="32" height="32" hspace="8" align="right">
-        </a>
-        <a href="https://twitter.com/senacrs" target="blank">
-        <img src="../imagens/twitter.png" alt="Twitter" title="Twitter"
-        width="32" height="32" hspace="8" align="right">
-        </a>
-        <a href="https://www.linkedin.com/school/senac-rs/" target="blank">
-        <img src="../imagens/linkedin.png" alt="Linkedin" title="Linkedin"
-        width="32" height="32" hspace="8" align="right">
+        <br>
+        <section>    
+            <footer>
+                <hr>
+                <a href="https://www.facebook.com/senacrsoficial" target="blank">
+                <img class="imgredes" src="../imagens/facebook.png" alt="Facebook" title="Facebook">
+                </a>
+                <a href="https://www.instagram.com/senac_rs/" target="blank">
+                <img class="imgredes" src="../imagens/instagram.png" alt="Instagram" title="Instagram">
+                </a>
+                <a href="https://twitter.com/senacrs" target="blank">
+                <img class="imgredes" src="../imagens/twitter.png" alt="Twitter" title="Twitter">
+                </a>
+                <a href="https://www.linkedin.com/school/senac-rs/" target="blank">
+                <img class="imgredes" src="../imagens/linkedin.png" alt="Linkedin" title="Linkedin">
+            </footer>
+        </section> 
         </body>
         </html>		
