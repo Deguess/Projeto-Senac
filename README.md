@@ -22,3 +22,7 @@ Modificar no css a tabela na página de cursos
 **Quinta parte**
 
 Aplicar div, nav, header, footer e section na index
+
+**Sexta parte**
+
+Aplicar css na página cadastrar

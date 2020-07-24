@@ -1,0 +1,55 @@
+/* Estrutura e Conteúdo */
+#container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex; 
+}
+
+.estrutura{
+    width: 30%;
+    height: auto;
+    border: 1px solid rgba(100, 100, 100, 0.05);
+    background-color: rgba(100, 100, 100, 0.05);
+    margin: 20px auto;
+    padding: 16px;
+}
+
+.estruturar{
+    width: 30%;
+    height: auto;
+    border: 1px solid rgba(100, 100, 100, 0.05);
+    background-color: rgba(100, 100, 100, 0.05);
+    margin: 20px auto;
+    padding: 16px;
+}
+
+.imgcont{
+    width: 100%;
+    height: auto;
+}
+
+.titulo{
+    text-align: center;
+    font-family: arvo;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.conteudo{
+    text-align: center;
+    font-family: arvo;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
