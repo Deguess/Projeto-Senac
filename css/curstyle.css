@@ -1,4 +1,8 @@
 /* Estrutura e Conteúdo */
+body{
+    background-color: #353535;
+}
+
 #container{
     width: 100%;
     height: auto;
@@ -23,8 +27,8 @@
 .estruturar{
     width: 30%;
     height: auto;
-    border: 1px solid rgba(100, 100, 100, 0.05);
-    background-color: rgba(100, 100, 100, 0.05);
+    border: 1px solid rgba(161, 161, 161, 0.05);
+    background-color: rgba(161, 161, 161, 0.05);
     margin: 20px auto;
     padding: 16px;
 }
@@ -48,7 +52,7 @@
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 
