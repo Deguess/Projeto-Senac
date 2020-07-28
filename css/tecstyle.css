@@ -1,0 +1,51 @@
+#container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+#img{
+    width: 40%;
+    height: auto;
+    margin: 15px 10px auto auto;
+    float: left;
+}
+
+#conteudo{
+    width: 30%;
+    height: auto;
+    border: 1px solid rgba(161, 161, 161, 0.05);
+    background-color: rgba(161, 161, 161, 0.05);
+    margin: 15px auto auto 10px;
+    padding: 10px;
+    float: right;
+}
+
+#informacoes{
+    width: 92%;
+    border: 1px solid rgba(161, 161, 161, 0.05);
+    background-color: rgba(161, 161, 161, 0.05);
+    margin: 15px auto;
+    padding: 16px;
+    float: left;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    text-decoration: underline rgb(70, 131, 243);
+    font-size: 25px;
+}
+
+img{
+    width: 500px;
+    height: 331px;
+}
+
+p{
+    display: block;
+    color: black;
+    text-align: center;
+    font-family: monospace;
+}

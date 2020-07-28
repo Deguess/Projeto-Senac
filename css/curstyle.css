@@ -1,8 +1,4 @@
 /* Estrutura e Conteúdo */
-body{
-    background-color: #353535;
-}
-
 #container{
     width: 100%;
     height: auto;
@@ -40,19 +36,19 @@ body{
 
 .titulo{
     text-align: center;
-    font-family: arvo;
+    font-family: monospace;
     font-size: 20px;
     font-weight: bold;
 }
 
 .conteudo{
     text-align: center;
-    font-family: arvo;
+    font-family: monospace;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 

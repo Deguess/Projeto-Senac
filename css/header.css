@@ -21,3 +21,9 @@ header{
     width: 50%;
     height: auto;
 }
+
+@media screen and (max-width: 600px) {
+    #logo{
+        display: block;
+    }
+}
