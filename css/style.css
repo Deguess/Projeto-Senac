@@ -39,6 +39,7 @@
 
 #historia{
     font-family: monospace;
+    font-size: 13.5px;
     color: black;
     text-align: justify;
     margin: 10px 10px 10px 10px;
@@ -57,7 +58,7 @@
     margin: 10px 10px auto;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1200px){
     #cabecalho, #logo, #navegacao, #fachada{
         width: 100%;
         height: auto;
@@ -68,9 +69,14 @@
         display: grid;
     }
 
-    #estrutura, #estruturar{
-        width: 100%;
+    #estrutura{
+        width: 90%;
         margin: 0 0 0 0;
+    }
+
+    #estruturar{
+        width: 90%;
+        margin: 5px 0 0 0;
     }
 
     #historia{
@@ -78,6 +84,7 @@
     }
 
     .sala{
-        text-align: center;
+        display: grid;
+        margin: auto auto auto auto;
     }
 }

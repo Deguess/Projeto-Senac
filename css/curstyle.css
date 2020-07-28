@@ -5,12 +5,6 @@
     display: flex;
 }
 
-.container{
-    width: 100%;
-    height: auto;
-    display: flex; 
-}
-
 .estrutura{
     width: 30%;
     height: auto;
@@ -30,14 +24,14 @@
 }
 
 .imgcont{
-    width: 100%;
-    height: auto;
+    width: 210px;
+    height: 140px;
 }
 
 .titulo{
     text-align: center;
     font-family: monospace;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -51,5 +45,56 @@ a{
     color: black;
 }
 
+#tabela{
+    width: 30%;
+    height: auto;
+    border: 1px solid rgba(161, 161, 161, 0.05);
+    background-color: rgba(161, 161, 161, 0.05);
+    margin: 20px auto;
+    padding: 16px;
+}
+
+#titulo{
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cursos{
+    font-family: monospace;
+    font-size: 15px;
+    border-top: 1px solid black;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1250px){
+    #container{
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: auto 2px auto 5px;
+    }
+
+    .estrutura, .estruturar{
+        width: 100%;
+        height: auto;
+    }
+
+    .imgcont{
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+
+    .conteudo{
+        text-align: justify;
+    }
+
+    #tabela{
+        width: 90%;
+    }
+
+}
 
 

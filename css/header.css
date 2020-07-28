@@ -1,3 +1,4 @@
+/* Configuração do Header */
 header{
     width: 100%;
     height: 45px;
@@ -22,8 +23,80 @@ header{
     height: auto;
 }
 
-@media screen and (max-width: 600px) {
-    #logo{
+/*Configuração do Menu */
+#menu, #menu ul{
+    padding: 0px;
+    list-style: none;
+    float: right;
+}
+
+#menu{
+    width: 100%;
+    text-align: right;
+}
+
+#menu li{
+    display: inline;
+}
+
+#menu a{
+    font-size: 15px;
+    font-family: arvo;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    padding: 0px 30px;
+}
+
+.outro{
+    border-right: 1px solid rgb(70, 131, 243);
+}
+
+#cadastro{
+   font-size: 15px;
+   font-family: arvo;
+   font-size: 15px;
+   text-decoration: none;
+   text-transform: capitalize;
+   color: black;
+}
+
+/* Responsividade */
+@media screen and (max-width: 1200px) {
+    header{
         display: flex;
+        position: relative;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    #logo{
+        display: inline;
+        height: 80px;
+        width: 40%;
+        position: absolute;
+        margin-top: 30px;
+    }
+
+    #imglogo{
+        width: 75px;
+        height: 45px;
+    }
+
+    #navegacao{
+        width: 40%;
+        display: inline;
+        float: right;
+        height: 60px;
+        right: 0;
+        position: absolute;
+    }
+
+    #menu li{
+        display: block;
+    }
+
+    nav{
+        margin-top: 0px;
     }
 }

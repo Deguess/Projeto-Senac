@@ -36,3 +36,25 @@ p{
     font-family: monospace;
     float: left;
 }
+
+@media screen and (max-width: 1200px){
+    #container{
+        display: block;
+        width: 90%;
+    }
+
+    #iframe{
+        width: 100%;
+        height: auto;
+    }
+
+    #conteudo{
+        width: 100%;
+        height: auto;
+    }
+
+    iframe{
+        width: auto;
+        height: auto;
+    }
+}
