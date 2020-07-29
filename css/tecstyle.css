@@ -38,7 +38,7 @@ h2{
     font-size: 25px;
 }
 
-img{
+#imgcurso{
     width: 500px;
     height: 331px;
 }
@@ -48,4 +48,43 @@ p{
     color: black;
     text-align: center;
     font-family: monospace;
+}
+
+@media screen and (max-width: 1200px) {
+    #container{
+        width: 90%;
+        height: auto;
+        display: block;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    #img{
+        width: 95%;
+        height: auto;
+        position: relative;
+        left: 15px;
+    }
+
+    #imgcurso{
+        width: 250px;
+        height: 175px;
+        display: block;
+        margin: auto;
+    }
+
+    #informacoes{
+        width: 95%;
+        height: auto;
+        display: block;
+        position: relative;
+    }
+
+    #conteudo{
+        width: 95%;
+        height: auto;
+        display: grid;
+        position: relative;
+        left: 15px;
+    }
 }

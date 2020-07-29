@@ -5,24 +5,34 @@
     margin: auto;
 }
 
-table{
-    text-align: center;
-    margin: auto;
-    padding: 16px;
+#form{
+    text-align: justify;
+    margin: 0 auto;
+    width: 50%;
 }
 
 .tipo{
-    text-align: right;
+    text-align: left;
 }
 
 .box{
     text-align: left;
 }
 
+#cadastro{
+    margin: 5px auto;
+    width: 50%;
+    text-align: center;
+}
+
 h2{
     text-align: center;
 }
 
-tr{
-    text-align: center;
+@media screen and (max-width: 1000px){
+    #meio{
+        width: 90%;
+        height: auto;
+    }
+       
 }
